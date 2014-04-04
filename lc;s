@@ -1,0 +1,23 @@
+[1mdiff --git a/bin/classes/com/example/testgitproject/MainActivity.class b/bin/classes/com/example/testgitproject/MainActivity.class[m
+[1mindex 94bbaad..6bbdf5e 100644[m
+Binary files a/bin/classes/com/example/testgitproject/MainActivity.class and b/bin/classes/com/example/testgitproject/MainActivity.class differ
+[1mdiff --git a/src/com/example/testgitproject/MainActivity.java b/src/com/example/testgitproject/MainActivity.java[m
+[1mindex 9604cfd..2ffb3c6 100644[m
+[1m--- a/src/com/example/testgitproject/MainActivity.java[m
+[1m+++ b/src/com/example/testgitproject/MainActivity.java[m
+[36m@@ -2,6 +2,7 @@[m [mpackage com.example.testgitproject;[m
+ [m
+ import android.os.Bundle;[m
+ import android.app.Activity;[m
+[32m+[m[32mimport android.util.Log;[m[41m[m
+ import android.view.Menu;[m
+ [m
+ public class MainActivity extends Activity {[m
+[36m@@ -10,6 +11,7 @@[m [mpublic class MainActivity extends Activity {[m
+ 	protected void onCreate(Bundle savedInstanceState) {[m
+ 		super.onCreate(savedInstanceState);[m
+ 		setContentView(R.layout.activity_main);[m
+[32m+[m		[32mLog.d("tag", "---test first modify---");[m[41m[m
+ 	}[m
+ [m
+ 	@Override[m
